@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Mike Gontareks HomePage
 
-You can use the [editor on GitHub](https://github.com/mikegontarek/mikegontarek.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+The puropse of the homepage is to display my Computer Science capstone project.  Later this will be used to display some of the projects that I work on and develop down the road. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## *Professional Self-Assesment*
 
-### Markdown
+## *Code Review*
+   This code review was done at the begging of the class before any enhancements were done.  This allowed me to discuss areas of opportunity for my code and how    I could better what I had up to that point.  I discuss the code and what it does here as well as the plans I had to enhance my code. 
+   
+## Areas of enhancements
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Software Design
+2. Algorithm and Data Structures
+4. Database
 
-```markdown
-Syntax highlighted code block
+## *Atifacts*:
+1. Program that creates contacts, appointments and tasks.  As well as testing the code with JUnit to ensure that my coverage of the code is efficient.  This artifact was created in my CS 320: Software Testing, Automation, and Quality Assurance. I enhanced the contact class as I was able to create a console log the user can interact with. 
+2. This is a script with some screen shots that I put together.  I took a database that I created in my DAD 220: Introduction to SQL class.  This database was then transformed into the database that you'll see in the link.  The database shows me updating and manipulating the data to find certain information about Minnesota Wild players and thier statistics.  
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mikegontarek/mikegontarek.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## *Naratives for artifacts*
