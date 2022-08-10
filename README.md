@@ -6,6 +6,8 @@ The puropse of the homepage is to display my Computer Science capstone project. 
 
 ## *Code Review*
    This code review was done at the begging of the class before any enhancements were done.  This allowed me to discuss areas of opportunity for my code and how    I could better what I had up to that point.  I discuss the code and what it does here as well as the plans I had to enhance my code. 
+ <a href="https://www.youtube.com/watch?v=zUO0tyRGisA"> Code Review Link </a>
+
    
 ## Areas of enhancements
 
