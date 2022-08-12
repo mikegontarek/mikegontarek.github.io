@@ -5,10 +5,15 @@ The puropse of the homepage is to display my Computer Science capstone project. 
 ## *Professional Self-Assesment*
 
 I started my pursuit of my Bachelor's Degree in Computer Science in September of 2018.  It has taken me four years as I have been busy with my wife and now two little girls (4 and 1).  During my time working on my degree I have learned about many IDEs, languages, hardware, software, and applications that make Software engineering possible. I have learned how to securely write safe code that used security policies to ensure that I fix bugs, and protect from vulnerabilities.  The Computer Science program with the Software Engineering emphasis has exposed me to a lot of great tools and given me a good foundation to stand on.  Now I am looking forward to landing my first job and hitting the ground running. 
-	I have two artifacts that I used to highlight the skills I have gained throughout my degree.  First, I used my Java project which has a contact class with parameters for the contact information that was tested with JUnit.  I enhanced this project by adding a console log that allowed the user to run the application and enter a choice for what they would like the application to do.  Then the application would perform that function.  I made it so the user could add data and then display that data. 	 
+	I have two artifacts that I used to highlight the skills I have gained throughout my degree.  
+	
+First, I used my Java project which has a contact class with parameters for the contact information that was tested with JUnit.  I enhanced this project by adding a console log that allowed the user to run the application and enter a choice for what they would like the application to do.  Then the application would perform that function.  I made it so the user could add data and then display that data. 	 
    
 Second, I used the SQL tables created in my DAD 220 class. I  enhanced them so they would reflect statistics about Minnesota Wild players on one table and the other table, I put their hometown information. 
-	Five Course Outcomes 
+
+These artifacts are described in more detail at the bottom of this page under the Artifacts header.
+
+Five Course Outcomes 
 1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science
 2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
 3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)
