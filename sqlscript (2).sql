@@ -1,0 +1,310 @@
+REM   Script: CREATED HOCKEY PLAYERS DB
+REM   HOMETOWNS AND ATHLETE TABELS
+
+CREATE TABLE ATHLETE (  
+    person_id INT PRIMARY KEY NOT NULL,  
+    first_name VARCHAR(25) NOT NULL,  
+    last_name VARCHAR(25) NOT NULL  
+);
+
+ALTER TABLE ATHLETE  
+ADD age INT;
+
+INSERT INTO ATHLETE (person_id, first_Name, last_name)  
+VALUES(1, 'Michael' ,'Phelps');
+
+INSERT INTO ATHLETE (person_id, first_Name, last_name)  
+VALUES(2, 'Katie', 'ledecky');
+
+INSERT INTO ATHLETE (person_id, first_Name, last_name)  
+VALUES(3, 'Usain', 'Bolt');
+
+INSERT INTO ATHLETE (person_id, first_Name, last_name)  
+VALUES(4, 'Allyson', 'Felix');
+
+INSERT INTO ATHLETE (person_id, first_Name, last_name)  
+VALUES(5, 'Kevin', 'Durant');
+
+INSERT INTO ATHLETE (person_id, first_Name, last_name)  
+VALUES(6, 'Diana', 'Taurasi');
+
+UPDATE ATHLETE  
+SET age = '32'  
+WHERE person_id = '1';
+
+CREATE TABLE CONTACT_LIST (  
+    connection_id INT NOT NULL,  
+    person_id INT NOT NULL,  
+    contact_id INT NOT NULL,  
+    favorite VARCHAR(255) NULL  
+);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(2,1,3,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(3,1,4,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(4,1,5,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(5,1,6,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(6,2,1,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(7,2,3,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(8,2,4,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(9,3,1,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(10,3,4,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(11,4,5,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(12,4,6,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(13,5,1,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(14,5,6,NULL);
+
+UPDATE CONTACT_LIST 
+SET favorite = 'y' 
+WHERE contact_id = '1';
+
+UPDATE CONTACT_LIST 
+SET favorite = 'n' 
+WHERE contact_id <> '1';
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(15,1,3,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(16,2,2,NULL);
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(17,1,2,NULL);
+
+DELETE FROM CONTACT_LIST 
+WHERE 
+connection_id = '1';
+
+INSERT INTO CONTACT_LIST (connection_id, person_id, contact_id, favorite)  
+VALUES(1,1,2,NULL);
+
+UPDATE CONTACT_LIST 
+SET favorite = 'n' 
+WHERE connection_id = '1';
+
+CREATE TABLE IMAGE (   
+    image_id INT PRIMARY KEY NOT NULL,   
+    image_name VARCHAR(50) NOT NULL,   
+    image_location VARCHAR(500) NOT NULL   
+);
+
+CREATE TABLE MESSAGE_IMAGE (  
+    message_id int NOT NULL,  
+    image_id int NOT NULL,  
+    PRIMARY KEY (message_id, image_id)  
+      
+) 
+;
+
+INSERT INTO IMAGE(image_id, image_name, image_location) 
+VALUES (11, 'Hockey', 'Minnesota');
+
+INSERT INTO IMAGE(image_id, image_name, image_location) 
+VALUES (12, 'Baseball', 'California');
+
+INSERT INTO IMAGE(image_id, image_name, image_location) 
+VALUES (13, 'Football', 'Texas');
+
+INSERT INTO IMAGE(image_id, image_name, image_location) 
+VALUES (14, 'Basketball', 'Indiana');
+
+INSERT INTO IMAGE(image_id, image_name, image_location) 
+VALUES (15, 'Volleball', 'Pannsylvainia');
+
+select * from IMAGE;
+
+INSERT INTO MESSAGE_IMAGE  
+VALUES (1,1);
+
+INSERT INTO MESSAGE_IMAGE  
+VALUES (1,5);
+
+INSERT INTO MESSAGE_IMAGE  
+VALUES (2,4);
+
+INSERT INTO MESSAGE_IMAGE  
+VALUES (2,3);
+
+INSERT INTO MESSAGE_IMAGE  
+VALUES (3,3);
+
+SELECT * FROM IMAGE;
+
+SELECT * FROM MESSAGE_IMAGE;
+
+ALTER TABLE ATHLETE   
+ADD Goals INT;
+
+ALTER TABLE ATHLETE   
+ADD Assists INT;
+
+ALTER TABLE ATHLETE   
+ADD PIM INT;
+
+ALTER TABLE ATHLETE   
+ADD SHG INT;
+
+ALTER TABLE ATHLETE   
+ADD SHP INT;
+
+ALTER TABLE ATHLETE   
+ADD GWG INT;
+
+ALTER TABLE ATHLETE   
+ADD OTG INT;
+
+ALTER TABLE ATHLETE   
+ADD S INT;
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (38, 'Ryan', 'Hartman', 27, 34, 31, 82, 95, 1, 0, 0, 7, 1, 239);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (22, 'Kevin', 'Fiala', 26, 33, 52, 82, 52, 5, 1, 1, 7, 1, 262);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (14, 'Joel', 'Ericksson Ek', 25, 26, 23, 77, 28, 12, 0, 0, 3, 2, 223);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (34, 'Mats', 'Zuccarello', 34, 24, 55, 70, 24, 7, 0, 0, 2, 0, 159);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (17, 'Marcus', 'Foligno', 30, 23, 19, 74, 112, 5, 0, 0, 3, 1, 98);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (12, 'Matt', 'Boldy', 21, 15, 24, 47, 10, 3, 0, 0, 2, 0, 113);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (29, 'Frederick', 'Gaudreau', 29, 14, 30, 76, 8, 1, 0, 2, 4, 1, 132);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (46, 'Jared', 'Spurgeon', 32, 10, 30, 65, 10, 0, 0, 0, 2, 2, 116);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (18, 'Jordan', 'Greenway', 25, 10, 17, 62, 69, 1, 0, 0, 3, 0, 110);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (24, 'Matt', 'Dumba', 28, 7, 20, 57, 47, 1, 0, 0, 1, 0, 116);
+
+INSERT INTO ATHLETE (PERSON_ID, FIRST_NAME, LAST_NAME, AGE, GOALS, ASSISTS, GP, PIM, PPG, SHG, SHP, GWG, OTG, S) 
+VALUES (7, 'Dmitry', 'Kulikov', 31, 7, 17, 80, 39, 0, 0, 0, 2, 1, 74);
+
+DELETE FROM ATHLETE WHERE LAST_NAME = 'Phelps';
+
+DELETE FROM ATHLETE WHERE LAST_NAME = 'Ledecky';
+
+DELETE FROM ATHLETE WHERE LAST_NAME = 'ledecky';
+
+DELETE FROM ATHLETE WHERE LAST_NAME = 'Bolt';
+
+DELETE FROM ATHLETE WHERE LAST_NAME = 'Felix';
+
+DELETE FROM ATHLETE WHERE LAST_NAME = 'Taurasi';
+
+DELETE FROM ATHLETE WHERE LAST_NAME = 'Durant';
+
+SELECT * FROM ATHLETE 
+ORDER BY AGE DESC;
+
+SELECT * FROM ATHLETE 
+ORDER BY PERSON_ID DESC;
+
+SELECT * FROM ATHLETE 
+ORDER BY ASSISTS DESC;
+
+SELECT * FROM ATHLETE 
+ORDER BY GOALS DESC;
+
+SELECT * FROM ATHLETE ;
+
+ALTER TABLE ATHLETE RENAME COLUMN PERSON_ID TO JERSEY_NUMBER;
+
+SELECT * FROM ATHLETE;
+
+SELECT * FROM contact_list;
+
+ALTER TABLE CONTACT_LIST 
+RENAME COLUMN CONNECTION_ID TO JERSEY_NUMBER;
+
+ALTER TABLE CONTACT_LIST 
+RENAME COLUMN PERSON_ID TO CITY;
+
+ALTER TABLE CONTACT_LIST 
+RENAME COLUMN CONTACT_ID TO COUNTRY;
+
+ALTER TABLE CONTACT_LIST 
+RENAME COLUMN FAVORITE TO SHOOTS;
+
+ALTER TABLE CONTACT_LIST 
+DROP COLUMN SHOOTS;
+
+ALTER TABLE CONTACT_LIST 
+ADD SHOOTS VARCHAR(50);
+
+DROP TABLE CONTACT_LIST;
+
+CREATE TABLE HOMETOWNS(   
+    JERSEY_NUMBER INT PRIMARY KEY NOT NULL,   
+    CITY VARCHAR(25) NOT NULL,   
+    COUNTRY VARCHAR(25) NOT NULL   
+);
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 87, 'NOVOKUZNETSK', 'RUSSIA');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 7, 'LIPETSK', 'RUSSIA');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 27, 'HILTON HEAD ISLAND, SC', 'USA');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 18, 'CANTON, NY', 'USA');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 17, 'BUFFALO, NY', 'USA');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 12,'MILFORD, MA', 'USA');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 22,'ST. GALLEN', 'CHE');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 14,'KARLSTAD', 'SWE');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 36,'OSLO', 'NOR');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 89,'BROMNT, QC', 'CAN');
+
+INSERT INTO HOMETOWNS(JERSEY_NUMBER, CITY, COUNTRY) 
+VALUES( 46,'EDMONTON, AB', 'CAN');
+
+SELECT * FROM HOMETOWNS;
+
