@@ -49,39 +49,39 @@ Five Course Outcomes
 
 Original code:
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/Original%20Contact.java> Original Contact class </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/Original%20Contact.java"> Original Contact class </a>
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/Original%20ContactService.java> Original ContactService class </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/Original%20ContactService.java"> Original ContactService class </a>
 
 Enhanced Code: 
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/Contact.java> Enhanced Contact class </a>  The enhancement is the main file in this calss.
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/Contact.java"> Enhanced Contact class </a>  The enhancement is the main file in this calss.
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/ContactService.java> Enhanced ContactService class </a> This enhancement is the displayContact method at the bottom of file.
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/ContactService.java"> Enhanced ContactService class </a> This enhancement is the displayContact method at the bottom of file.
 
 Live SQL code. 
 
 I have quite a few lines of code here as I had to recreate my tables from DAD:220.  We used Codio to make our database and tables. Since I was over two years removed from taking this class I needed to recreate the entire final project for that class then I could enhance the tables. 
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/sqlscript%20(3).sql> All SQL statements.</a>  This shows what I did that did and did not work.  This shows how I learned and made adjustments along the way. 
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/sqlscript%20(3).sql"> All SQL statements.</a>  This shows what I did that did and did not work.  This shows how I learned and made adjustments along the way. 
 
 ### Screenshots for SQL
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/inner%20join%20of%20goals%20and%20assists.1.png> Inner Join </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/inner%20join%20of%20goals%20and%20assists.1.png"> Inner Join </a>
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/USA%20GOALS.1.png> USA Goals </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/USA%20GOALS.1.png"> USA Goals </a>
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/TOTAL%20RUS%20GOALS.1.png> Russia Goals </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/TOTAL%20RUS%20GOALS.1.png"> Russia Goals </a>
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/TOTAL%20CAN%20GOALS.1.png> Canada Goals </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/TOTAL%20CAN%20GOALS.1.png"> Canada Goals </a>
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/WILD%20PLAYER%20POINTS.1.png> Wild Player Points </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/WILD%20PLAYER%20POINTS.1.png"> Wild Player Points </a>
 
 
 
 ## *Naratives for artifacts*
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/3-2%20Milestone%20Two--%20Enhancement%20One--%20Software%20Design%20and%20Engineering%202.docx> Link to artifact 1 narative </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/3-2%20Milestone%20Two--%20Enhancement%20One--%20Software%20Design%20and%20Engineering%202.docx"> Link to artifact 1 narative </a>
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/4-2%20Milestone%20Three--%20Enhancement%20Two--%20Algorithms%20and%20Data%20Structure.docx> Link to artifact 2 narative </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/4-2%20Milestone%20Three--%20Enhancement%20Two--%20Algorithms%20and%20Data%20Structure.docx"> Link to artifact 2 narative </a>
 
-<a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/5-2%20Milestone%20Four--%20Enhancement%20Three--%20Databases.docx> Link to artifact 3 narative </a>
+<a href="https://github.com/mikegontarek/mikegontarek.github.io/blob/main/5-2%20Milestone%20Four--%20Enhancement%20Three--%20Databases.docx"> Link to artifact 3 narative </a>
