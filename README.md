@@ -45,5 +45,13 @@ Five Course Outcomes
 1. Program that creates contacts, appointments and tasks.  As well as testing the code with JUnit to ensure that my coverage of the code is efficient.  This artifact was created in my CS 320: Software Testing, Automation, and Quality Assurance. I enhanced the contact class as I was able to create a console log the user can interact with. 
 2. This is a script with some screen shots that I put together.  I took a database that I created in my DAD 220: Introduction to SQL class.  This database was then transformed into the database that you'll see in the link.  The database shows me updating and manipulating the data to find certain information about Minnesota Wild players and thier statistics.  
 
+## *Original code as well as enhanced code for my artifacts*:
+
+
 ## *Naratives for artifacts*
+<a href=https://github.com/mikegontarek/CS-499-Computer-Capstone/blob/main/3-2%20Milestone%20Two--%20Enhancement%20One--%20Software%20Design%20and%20Engineering%202.docx> Link to artifact 1 narative </a>
+
+<a href=https://github.com/mikegontarek/CS-499-Computer-Capstone/blob/main/4-2%20Milestone%20Three--%20Enhancement%20Two--%20Algorithms%20and%20Data%20Structure.docx> Link to artifact 2 narative </a>
+
+<a href=https://github.com/mikegontarek/CS-499-Computer-Capstone/blob/main/5-2%20Milestone%20Four--%20Enhancement%20Three--%20Databases.docx> Link to artifact 3 narative </a>
 
