@@ -1,8 +1,8 @@
 ## Mike Gontareks HomePage
 
-The puropse of the homepage is to display my Computer Science capstone project.  Later this will be used to display some of the projects that I work on and develop down the road. 
+The purpose of the homepage is to display my Computer Science capstone project.  Later this will be used to display some of the projects that I work on and develop down the road. 
 
-## *Professional Self-Assesment*
+## *Professional Self-Assessment*
 
 I started my pursuit of my Bachelor's Degree in Computer Science in September of 2018.  It has taken me four years as I have been busy with my wife and now two little girls (4 and 1).  During my time working on my degree I have learned about many IDEs, languages, hardware, software, and applications that make Software engineering possible. I have learned how to securely write safe code that used security policies to ensure that I fix bugs, and protect from vulnerabilities.  The Computer Science program with the Software Engineering emphasis has exposed me to a lot of great tools and given me a good foundation to stand on.  Now I am looking forward to landing my first job and hitting the ground running. 
 	I have two artifacts that I used to highlight the skills I have gained throughout my degree.  
@@ -42,8 +42,8 @@ Five Course Outcomes
 4. Database
 
 ## *Atifacts*:
-1. Program that creates contacts, appointments and tasks.  As well as testing the code with JUnit to ensure that my coverage of the code is efficient.  This artifact was created in my CS 320: Software Testing, Automation, and Quality Assurance. I enhanced the contact class as I was able to create a console log the user can interact with. 
-2. This is a script with some screen shots that I put together.  I took a database that I created in my DAD 220: Introduction to SQL class.  This database was then transformed into the database that you'll see in the link.  The database shows me updating and manipulating the data to find certain information about Minnesota Wild players and thier statistics.  
+1. Program that creates contacts, appointments, and tasks.  As well as testing the code with JUnit to ensure that my coverage of the code is efficient.  This artifact was created in my CS 320: Software Testing, Automation, and Quality Assurance. I enhanced the contact class as I was able to create a console log the user can interact with. 
+2. This is a script with some screenshots that I put together.  I took a database that I created in my DAD 220: Introduction to SQL class.  This database was then transformed into the database that you'll see in the link.  The database shows me updating and manipulating the data to find certain information about Minnesota Wild players and their statistics.  
 
 ## *Original code as well as enhanced code for my artifacts*:
 
@@ -61,9 +61,11 @@ Enhanced Code:
 
 Live SQL code. 
 
+I have quite a few lines of code here as I had to recreate my tables from DAD:220.  We used Codio to make our database and tables. Since I was over two years removed from taking this class I needed to recreate the entire final project for that class then I could enhance the tables. 
+
 <a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/sqlscript%20(3).sql> All SQL statements.</a>  This shows what I did that did and did not work.  This shows how I learned and made adjustments along the way. 
 
-### Screen shots for SQL
+### Screenshots for SQL
 
 <a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/inner%20join%20of%20goals%20and%20assists.1.png> Inner Join </a>
 
@@ -83,4 +85,3 @@ Live SQL code.
 <a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/4-2%20Milestone%20Three--%20Enhancement%20Two--%20Algorithms%20and%20Data%20Structure.docx> Link to artifact 2 narative </a>
 
 <a href=https://github.com/mikegontarek/mikegontarek.github.io/blob/main/5-2%20Milestone%20Four--%20Enhancement%20Three--%20Databases.docx> Link to artifact 3 narative </a>
-
